@@ -29,4 +29,4 @@ Coins tracked by default: **BTC, ETH, BNB, LTC**.
 
 - EMA period: EMA_PERIOD = 9
 - Spike detection: PRICE_SPIKE_MULTIPLIER = 2.5, VOLUME_SPIKE_MULTIPLIER = 3.0
--Anomaly detection threshold: ANOMALY_THRESHOLD = 2.5
+- Anomaly detection threshold: ANOMALY_THRESHOLD = 2.5
