@@ -1,0 +1,7 @@
+websocket-client==1.6.1
+kafka-python==2.0.2
+pandas==2.1.1
+numpy==1.25.2
+dash==3.8.0
+plotly==5.22.0
+certifi==2025.7.28
