@@ -57,7 +57,7 @@ def kafka_consumer_thread():
             else:
                 SHARED_DATA[coin_name] = pd.concat([coin_df, new_data])
             
-            # Keep the DataFrame from growing indefinitely
+            # Keep the DataFrame from growing 
             SHARED_DATA[coin_name] = SHARED_DATA[coin_name][
                 ~SHARED_DATA[coin_name].index.duplicated(keep='last')
             ].sort_index().tail(MAX_DF_SIZE)
